@@ -26,7 +26,7 @@ df["FIPS"] = df["FIPS"].apply(lambda x: str(x).zfill(5))
 
 df = df[["FIPS", "Trump", "Biden", "Total Votes"]]
 
-df.to_csv("county_results.csv")
+df.to_csv("county_results.csv", index=False)
 
 print(f"Biden won counties: {len(df[df['Biden']>df['Trump']])} out of {len(df)}")
 print(f"Trump votes: {int(sum(df['Trump']))}")
@@ -44,7 +44,7 @@ map_df[m] = map_df[m].set_geometry(map_df[m].translate(5500000, -1800000))
 merged = map_df.merge(df, on="FIPS", how="inner")
 
 # Set up facecolour column
-merged["colour"] = df.apply(lambda x: "b" if x["Biden"] > x["Trump"] else "r", axis=1)
+merged["colour"] = merged.apply(lambda x: "b" if x["Biden"] > x["Trump"] else "r", axis=1)
 
 # Plot map
 fig, ax = plt.subplots(1, dpi=800)
