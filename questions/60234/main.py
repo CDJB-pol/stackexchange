@@ -97,7 +97,7 @@ ax.legend(
         ),
     ],
     loc="upper left",
-    prop={"size": 5.5},
+    prop={"size": 4.5},
 )
 
 map_merged.apply(
