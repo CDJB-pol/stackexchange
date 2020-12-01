@@ -55,7 +55,7 @@ df_degree["Degree_percent"] = df_degree["Degree_percent"] * 100
 df_degree = df_degree[["FIPS", "Degree_percent"]]
 
 final_df = df_degree.merge(df_pres, on="FIPS")
-final_df.to_csv("out_data.csv")
+final_df.to_csv("out_data.csv", index=False)
 
 fig, ax = plt.subplots()
 final_df.plot(x="Degree_percent", y="2-party change", s=0.5, kind="scatter", ax=ax)
