@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+import matplotlib.patheffects as pe
 import geopandas as gpd
 import urllib.request, json
 
@@ -25,6 +26,8 @@ pres_df["pres_winner"] = pres_df.apply(
     else "uncalled",
     axis=1,
 )
+
+print(len(pres_df[~pd.isnull(pres_df['Biden'])].reset_index(drop=True)))
 
 # Read house results from NYT source
 with urllib.request.urlopen(
@@ -101,8 +104,8 @@ ax.legend(
 )
 
 map_merged.apply(
-    lambda x: ax.annotate(
-        text=x["CDLABEL"], xy=x.geometry.centroid.coords[0], ha="center", fontsize=2
+    lambda x: ax.text(
+        x.geometry.centroid.coords[0][0], x.geometry.centroid.coords[0][1], x["CDLABEL"], ha="center", fontsize=2.5, color='w', path_effects=[pe.withStroke(linewidth=0.2, foreground="black")]
     ),
     axis=1,
 )
