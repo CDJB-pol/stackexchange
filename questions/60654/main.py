@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+from scipy.interpolate import interp1d
+import statsmodels.api as sm
 
 plt.style.use("ggplot")
 
@@ -62,6 +64,19 @@ final_df.plot(x="Degree_percent", y="2-party change", s=0.5, kind="scatter", ax=
 ax.set_xlabel("Population with Bachelor's degree or higher (%)")
 ax.set_ylabel("2016/20 2-party margin change (pp)")
 
+x = final_df["Degree_percent"]
+y = final_df["2-party change"]
+
+# Plot LOWESS curve
+lowess = sm.nonparametric.lowess(y, x, frac=0.3)
+lowess_x = list(zip(*lowess))[0]
+lowess_y = list(zip(*lowess))[1]
+f = interp1d(lowess_x, lowess_y, bounds_error=False)
+xnew = np.arange(min(x), max(x), 0.05)
+ynew = f(xnew)
+ax.plot(xnew, ynew, "m--", alpha=0.5)
+
+# Plot linear trend-line
 while True:
     try:
         z = np.polyfit(final_df["Degree_percent"], final_df["2-party change"], 1)
@@ -78,7 +93,7 @@ ax.plot(
 )
 
 cc = round(final_df.corr()["Degree_percent"]["2-party change"], 2)
-beta = round(z[0], 1)
+beta = round(z[0], 2)
 
 ax.annotate(
     f"Pearson's Correlation Coefficient: {cc}\n Trend line gradient: {beta}",
