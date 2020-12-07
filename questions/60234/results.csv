@@ -1,5 +1,5 @@
 CD,Biden,Trump,pres_winner,house_winner,colour
-AK-01,,,uncalled,republican,gray
+AK-01,43.0,53.1,republican,republican,r
 AL-01,,,uncalled,republican,gray
 AL-02,,,uncalled,republican,gray
 AL-03,,,uncalled,republican,gray
@@ -195,8 +195,8 @@ MD-05,,,uncalled,democrat,gray
 MD-06,,,uncalled,democrat,gray
 MD-07,,,uncalled,democrat,gray
 MD-08,,,uncalled,democrat,gray
-ME-01,,,uncalled,democrat,gray
-ME-02,,,uncalled,democrat,gray
+ME-01,60.1,37.0,democrat,democrat,b
+ME-02,44.8,52.3,republican,democrat,c
 MI-01,,,uncalled,republican,gray
 MI-02,,,uncalled,republican,gray
 MI-03,,,uncalled,republican,gray
@@ -231,7 +231,7 @@ MS-01,,,uncalled,republican,gray
 MS-02,,,uncalled,democrat,gray
 MS-03,,,uncalled,republican,gray
 MS-04,,,uncalled,republican,gray
-MT-01,,,uncalled,republican,gray
+MT-01,40.6,56.9,republican,republican,r
 NC-01,,,uncalled,democrat,gray
 NC-02,,,uncalled,democrat,gray
 NC-03,,,uncalled,republican,gray
@@ -245,7 +245,7 @@ NC-10,,,uncalled,republican,gray
 NC-11,,,uncalled,republican,gray
 NC-12,,,uncalled,democrat,gray
 NC-13,,,uncalled,republican,gray
-ND-01,,,uncalled,republican,gray
+ND-01,31.9,65.5,republican,republican,r
 NE-01,,,uncalled,republican,gray
 NE-02,,,uncalled,republican,gray
 NE-03,,,uncalled,republican,gray
@@ -350,7 +350,7 @@ SC-04,38.9,59.3,republican,republican,r
 SC-05,41.0,57.6,republican,republican,r
 SC-06,67.0,31.8,democrat,democrat,b
 SC-07,40.2,58.8,republican,republican,r
-SD-01,,,uncalled,republican,gray
+SD-01,35.6,61.8,republican,republican,r
 TN-01,,,uncalled,republican,gray
 TN-02,,,uncalled,republican,gray
 TN-03,,,uncalled,republican,gray
@@ -411,7 +411,7 @@ VA-08,77.6,21.1,democrat,democrat,b
 VA-09,28.4,70.4,republican,republican,r
 VA-10,58.9,39.6,democrat,democrat,b
 VA-11,70.3,28.3,democrat,democrat,b
-VT-01,,,uncalled,democrat,gray
+VT-01,66.4,30.8,democrat,democrat,b
 WA-01,,,uncalled,democrat,gray
 WA-02,,,uncalled,democrat,gray
 WA-03,,,uncalled,republican,gray
