@@ -1,4 +1,3 @@
-from collections import Counter
 from urllib.request import Request, urlopen
 import pandas as pd
 import geopandas as gpd
