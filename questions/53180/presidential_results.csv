@@ -1,14 +1,14 @@
 ﻿State,1864,1868,1872,1876,1880,1884,1888,1892,1896,1900,1904,1908,1912,1916,1920,1924,1928,1932,1936,1940,1944,1948,1952,1956,1960,1964,1968,1972,1976,1980,1984,1988,1992,1996,2000,2004,2008,2012,2016,2020
 Alabama,,R,R,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,SR,D,D,I,R,AI,R,D,R,R,R,R,R,R,R,R,R,R,R
-Alaska,,,,,,,,,,,,,,,,,,,,,,,,,R,D,R,R,R,R,R,R,R,R,R,R,R,R,R,
-Arizona,,,,,,,,,,,,,D,D,R,R,R,D,D,D,D,D,R,R,R,R,R,R,R,R,R,R,R,D,R,R,R,R,R,
+Alaska,,,,,,,,,,,,,,,,,,,,,,,,,R,D,R,R,R,R,R,R,R,R,R,R,R,R,R,R
+Arizona,,,,,,,,,,,,,D,D,R,R,R,D,D,D,D,D,R,R,R,R,R,R,R,R,R,R,R,D,R,R,R,R,R,D
 Arkansas,,R,R,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,AI,R,D,R,R,R,D,D,R,R,R,R,R,R
 California,R,R,R,R,D,R,R,D,R,R,R,R,BM,D,R,R,R,D,D,D,D,D,R,R,R,D,R,R,R,R,R,R,D,D,D,D,D,D,D,D
 Colorado,,,,R,R,R,R,PO,D,D,R,D,D,D,R,R,R,D,D,R,R,D,R,R,R,D,R,R,R,R,R,R,D,R,R,R,D,D,D,D
 Connecticut,R,R,R,D,R,D,D,D,R,R,R,R,D,R,R,R,R,R,D,D,D,R,R,R,D,D,D,R,R,R,R,R,D,D,D,D,D,D,D,D
 Delaware,D,D,R,D,D,D,D,D,R,R,R,R,D,R,R,R,R,R,D,D,D,R,R,R,D,D,R,R,D,R,R,R,D,D,D,D,D,D,D,D
 Florida,,R,R,R,D,D,D,D,D,D,D,D,D,D,D,D,R,D,D,D,D,D,R,R,R,D,R,R,D,R,R,R,R,D,R,R,D,D,R,R
-Georgia,,D,LR,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,R,AI,R,D,D,R,R,D,R,R,R,R,R,R,
+Georgia,,D,LR,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,D,R,AI,R,D,D,R,R,D,R,R,R,R,R,R,D
 Hawaii,,,,,,,,,,,,,,,,,,,,,,,,,D,D,D,R,D,D,R,D,D,D,D,D,D,D,D,D
 Idaho,,,,,,,,PO,D,D,R,R,D,D,R,R,R,D,D,D,D,D,R,R,R,D,R,R,R,R,R,R,R,R,R,R,R,R,R,R
 Illinois,R,R,R,R,R,R,R,D,R,R,R,R,D,R,R,R,R,D,D,D,D,D,R,R,D,D,R,R,R,R,R,R,D,D,D,D,D,D,D,D
@@ -31,7 +31,7 @@ New Hampshire,R,R,R,R,R,R,R,R,R,R,R,R,D,D,R,R,R,R,D,D,D,R,R,R,R,D,R,R,R,R,R,R,D,
 New Jersey,D,D,R,D,D,D,D,D,R,R,R,R,D,R,R,R,R,D,D,D,D,R,R,R,D,D,R,R,R,R,R,R,D,D,D,D,D,D,D,D
 New Mexico,,,,,,,,,,,,,D,D,R,R,R,D,D,D,D,D,R,R,D,D,R,R,R,R,R,R,D,D,D,R,D,D,D,D
 New York,R,D,R,D,R,D,R,D,R,R,R,R,D,R,R,R,R,D,D,D,D,R,R,R,D,D,D,R,D,R,R,D,D,D,D,D,D,D,D,D
-North Carolina,,R,R,D,D,D,D,D,D,D,D,D,D,D,D,D,R,D,D,D,D,D,D,D,D,D,R,R,D,R,R,R,R,R,R,R,D,R,R,
+North Carolina,,R,R,D,D,D,D,D,D,D,D,D,D,D,D,D,R,D,D,D,D,D,D,D,D,D,R,R,D,R,R,R,R,R,R,R,D,R,R,R
 North Dakota,,,,,,,,SP,R,R,R,R,D,D,R,R,R,D,D,R,R,R,R,R,R,D,R,R,R,R,R,R,R,R,R,R,R,R,R,R
 Ohio,R,R,R,R,R,R,R,R,R,R,R,R,D,D,R,R,R,D,D,D,R,D,R,R,R,D,R,R,D,R,R,R,D,D,R,R,D,D,R,R
 Oklahoma,,,,,,,,,,,,D,D,D,R,D,R,D,D,D,D,D,R,R,R,D,R,R,R,R,R,R,R,R,R,R,R,R,R,R

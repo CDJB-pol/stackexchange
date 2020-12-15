@@ -17,7 +17,7 @@ house_df = pd.read_csv("house_results.csv").set_index("State")
 # differently to previous election
 diff_states = {}
 
-for y in range(1864, 2020, 4):
+for y in range(1864, 2024, 4):
     pres = pres_df[str(y)].to_dict()
     house = house_df[str(y - 2)].to_dict()
     diff_states[y] = [
@@ -52,7 +52,7 @@ map_df[m] = map_df[m].set_geometry(map_df[m].translate(6000000, -1800000))
 map_df["State"] = map_df["NAME"]
 merged = map_df.merge(df, on="State", how="inner")
 
-fig, ax = plt.subplots(1, dpi=800)
+fig, ax = plt.subplots()
 merged.plot(
     column="n",
     cmap="Blues",
@@ -73,4 +73,4 @@ merged.apply(
     ),
     axis=1,
 )
-plt.savefig("state_map.png")
+plt.savefig("state_map.png", bbox_inches="tight", pad_inches=0, dpi=800)
