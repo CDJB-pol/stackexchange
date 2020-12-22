@@ -17,6 +17,9 @@ pres_df = pres_df[3:].iloc[:, [1, 4, 5]]
 # Make CD column consistent
 pres_df["CD"] = pres_df["CD"].apply(lambda x: x.replace("-AL", "-01"))
 
+pres_df["Biden"] = pres_df["Biden"].astype(float)
+pres_df["Trump"] = pres_df["Trump"].astype(float)
+
 # Create winner column
 pres_df["pres_winner"] = pres_df.apply(
     lambda x: "democrat"
