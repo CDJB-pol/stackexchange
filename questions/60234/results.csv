@@ -162,10 +162,10 @@ IN-06,,,uncalled,republican,gray
 IN-07,,,uncalled,democrat,gray
 IN-08,,,uncalled,republican,gray
 IN-09,,,uncalled,republican,gray
-KS-01,,,uncalled,republican,gray
-KS-02,,,uncalled,republican,gray
-KS-03,,,uncalled,democrat,gray
-KS-04,,,uncalled,republican,gray
+KS-01,28.1,69.7,republican,republican,r
+KS-02,41.3,56.3,republican,republican,r
+KS-03,54.3,43.7,democrat,democrat,b
+KS-04,38.0,59.7,republican,republican,r
 KY-01,,,uncalled,republican,gray
 KY-02,,,uncalled,republican,gray
 KY-03,,,uncalled,democrat,gray
