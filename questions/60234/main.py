@@ -71,6 +71,9 @@ map_df = map_df[map_df.geometry.notnull()]
 map_df["CDFIPS"] = map_df["GEOID"].apply(lambda x: "01" if x[2:] == "00" else x[2:])
 map_df["CD"] = map_df.apply(lambda x: f"{x['STATEAB']}-{x['CDFIPS']}", axis=1)
 
+# Hexmap geometry is a bit weird, so stretch the map a little on the x axis.
+map_df['geometry'] = map_df['geometry'].scale(xfact=1.4, origin=(0,0))
+
 map_merged = map_df.merge(merged, on="CD")
 
 # Map plotting
