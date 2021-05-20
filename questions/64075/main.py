@@ -17,6 +17,7 @@ house_df = pd.DataFrame(
 )
 
 merged = pres_df.merge(house_df, on="CD")
+merged.to_csv('out.csv', index=False)
 
 biden_voters_in_rep_cds = sum(merged[merged['house_winner'] == 'republican']['Biden'])
 trump_voters_in_dem_cds = sum(merged[merged['house_winner'] == 'democrat']['Trump'])
